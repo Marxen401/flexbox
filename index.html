@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Example</title>
     <style>
-        .body {
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -26,9 +26,23 @@
             max-width: 600px;
             text-align: center;
         }
-        .p {
+        p {
             font-size: 1.2em;
             line-height: 1.6;
+        }
+        .learn-more-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        .learn-more-btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -40,10 +54,9 @@
             Items within a flex container can automatically adjust their size based on the available space, making it perfect for 
             creating responsive designs. Flexbox provides control over the direction, alignment, order, and size of items in a container, 
             without the need for floats or positioning tricks.</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox" class="learn-more-btn" target="_blank">Learn More</a>
         </div>
     </div>
 
 </body>
 </html>
-
-
